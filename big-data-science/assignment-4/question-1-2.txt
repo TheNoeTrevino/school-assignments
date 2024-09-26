@@ -1,8 +1,0 @@
-Question 1. Explain the difference between supervised and unsupervised learning
-
-The main difference between supervised and unsupervised learning is that
-supervised learning uses labeled data, while unsupervised learning does not.
-
-
-
-Question 2. Explain the difference between classification and regression models
