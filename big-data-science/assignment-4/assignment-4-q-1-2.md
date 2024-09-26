@@ -4,7 +4,7 @@ Assignment 1
 
 ## Question 1: Supervised vs Unsupervised Learning
 
-### Overall Difference
+#### Overall Difference
 
 The main difference between supervised learning and unsupervised learning is
 that supervised learning uses labeled data, and unsupervised learning
@@ -12,7 +12,7 @@ uses Unlabeled data
 
 _But what does that even mean? What are the implications of this?_
 
-#### Supervised Learning
+### Supervised Learning
 
 ---
 
@@ -30,7 +30,7 @@ Typically, this style is more accurate, compared to its unsupervised counterpart
 This technique is used to make _predictions_, where as unsupervised is not used
 for this, it is used to cluster data and detect anomalies. More this this below
 
-#### Unsupervised Learning
+### Unsupervised Learning
 
 ---
 
