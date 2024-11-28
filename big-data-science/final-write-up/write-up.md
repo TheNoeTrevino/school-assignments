@@ -3,7 +3,8 @@
 ## What is my research question?
 
 How can we better aid farmers detect the early signs of crop disease? Can we
-make their job more automated in someway related to finding diseases earlier, possibly reducing labor costs and/or loss of crops?
+make their job more automated in someway related to finding diseases earlier, possibly reducing
+labor costs and/or loss of crops?
 
 ## What is and where to collect you data?
 
@@ -15,6 +16,12 @@ This dataset is a collection of crop images used for a competition. Called ‘Ag
 Vision’. The challenge is basically what I am trying to do. I find it extremely interesting.
 
 ## How does machine learning and data mining help my project?
+
+#### Training
+
+Training these models will be very computationally expensive. We will Hadoop's
+map reduce functionality to execute distributed programming letting us create
+our models significantly faster.
 
 ##### Incorporating a CNN
 
