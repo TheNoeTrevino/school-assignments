@@ -18,7 +18,7 @@ discriminator will judge that data and determine if it is similar to the
 training data. The iterator will improve by taking feedback from the
 discriminator, and this process will repeat.
 
-## Q2:
+## Question 2:
 
 Explain the roles of encoder and decoder in the Transformer architecture. (1 point)
 
