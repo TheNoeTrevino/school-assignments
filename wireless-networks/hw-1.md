@@ -65,10 +65,18 @@ Phase Shift Keying. Give example of each.
 We can change height of the wave. To represent another symbol. A wave twice as
 high as another can represent 1, while the smaller one represents 0.
 
+A common example is a waveform taking up some amount of time. Representing one.
+In the next segment of that time, the waveform will be completely flat, or have
+of the amplitude. Representing 0
+
 3. Frequency Shift Keying
 
 The changing the speed at which a wave completes. A wave twice as ***fast*** can
 represent 1. While the slower one will represent 0. 
+
+It is hard to describe this in text, but you can imagine a waveform taking a
+certain amount of time. This will represent 0. In the next segment of that
+amount of time, the wave form will double in its frequency, representing 1.
 
 4. Phase Shift Keying 
 
@@ -76,13 +84,25 @@ We can use the angle at which the signal starts to represent different values.
 This one seems to me to be the most versatile. A wave starting at angle of 0
 will be 00, one starting at angle 90, can be 01, one starting at 180 degrees, can
 be 10, 270 can be 11. This allows us to send symbols at a higher rate. Although,
-it is at risk from a unfavorable SNR.
+it is at risk from a unfavorable SNR. Although this is difficult to depict only
+through text, we can think of: dictating a symbol depending on the starting
+angle of our waveform.
 
 ## Question 5
 
 What is multiplexing in communication systems? Explain the purpose and
 importance of multiplexing in maximizing the utilization of communication
 channels.
+
+### Answer
+
+Multiplexing is used when a channels bandwidth is not fully utilized. We take
+advantage of the bandwidth by carrying multiple signals on the same medium, more
+efficiently using the bandwidth.
+
+With scenarios like multiple people in a same room, doing different things on
+their phone, multiplexing multiple signals into one allows us to fully utilize
+the potential of the channel.
 
 ## Question 6
 
@@ -91,10 +111,17 @@ do different antenna design impact signal propagation and coverage?
 
 ### Answer 
 
+Their main use is to convert electrical signals into electromagnetic waves,
+which we can use to communicate wirelessly. 
+
 Antennas can help by moving the place in which our electromagnetic fields come
 from. Rather than having then on the ground, or in a building, which would cause
-a lot of obstructions automatically, we can place them outside, and higher. This
-will increase the radius by getting above the obstructions. 
+a lot of obstructions automatically, we can place them outside, in a more
+central place, and higher. This will increase the radius by getting above
+the obstructions. 
+
+Different deigns, like the parabolic antenna which gives us a more focused
+direction of the signal, will give us different advantages and what not. 
 
 ## Question 7
 
@@ -106,6 +133,23 @@ calculations.
 
 ### Answer 
 
+We will use Shannon's Theorem for this problem.
+
+C = Blog_2(1+SNR)
+
+C = 20,000*log_2(1+3.16)
+
+I used a website to calculate the linear scale of the decibels
+
+C = 20,000*log_2(4.16)
+
+C = 20,000*2.07
+
+C = 41,700
+
+So the channel's maximum bandwidth is 41.7Mbps, not even close to 80. This is
+not credible
+
 ## Question 8
 
 A wireless communication system operates over a noiseless channel with a
@@ -113,3 +157,24 @@ bandwidth of 20 MHz and achieves a channel capacity of 100 Mbps. Determine
 how many signal levels are required to achieve this channel capacity.
 
 ### Answer 
+
+For noiseless channels we will use the Nyquist formula
+
+B = 20,000
+
+C = 100,000
+
+C = 2B log_2(M)
+
+M = 2^(C/2B)
+
+M = 2^(100,000/40,000)
+
+M = 2^2.5
+
+M = around 5.55
+
+6 signal level are required to achieve the channel capacity.
+
+
+
