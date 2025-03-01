@@ -52,7 +52,14 @@ wireless networks instead?
 
 ### Answer
 
-TODO
+CSMA/CD works by checking if the wire is idle or not. If the wire is idle, we
+will send our signal. If a collision, which can happen during our vulnerability
+window, happens the receiver will tell the whole network that a collision has
+occurred. 
+
+With CSMA/CA, we reserve time slots to transmit out signals. Since the time is
+set, when others try to communicate with the receiver they will be not allowed,
+avoiding the collision in the first place. 
 
 [source](https://www.geeksforgeeks.org/carrier-sense-multiple-access-csma/)
 
@@ -65,7 +72,13 @@ How does the hidden node problem affect wireless communication, and what techniq
 
 ### Answer
 
-TODO
+The hidden node problem happens when two devices, that are out of range of each
+other, try to communicate with an access point. The two devices, unknowingly
+transmitting at the same time, cause a collision. We can avoid this problem with
+the RTS/CTS protocol. We will send a RTS, and the access point will reserve a
+certain amount of time for us to transmit. This will allow devices out of range
+to know that there a transmission in progress. This is how we perform collision
+avoidance with wireless networks.
 
 ## 5
 
@@ -77,14 +90,25 @@ U X = [-1, 1, -1, 1, -1, 1, -1, 1]
 U Y = [-1, 1, 1, -1, -1, 1, 1, -1]
 U Z = [-1, -1, 1, 1, -1, -1, 1, 1]
 
-(a) Determine the decoder output of the receiver if user X transmits a data bit 1, user Y
+a. Determine the decoder output of the receiver if user X transmits a data bit 1, user Y
     transmits a data bit 1, and when user Z transmitting data bit 0;
-(b) Determine the composite signal transmitted on a common transmission channel.
-(c) Draw the waveform of the data available in the channel for (b) the above
+
+b. Determine the composite signal transmitted on a common transmission channel.
+
+c. Draw the waveform of the data available in the channel for (b) the above
     transmission
 
 ### Answer
 
-(a) User X transmitting a data bit 1: [-1, 1, -1, 1, -1, 1, -1, 1]
-    User Y transmitting a data bit 1: [-1, 1, 1, -1, -1, 1, 1, -1]
-    User Z transmitting a data bit 0: [1, 1, -1, -1, 1, 1, -1, -1]
+a. User X transmitting a data bit 1: [-1, 1, -1, 1, -1, 1, -1, 1]
+   User Y transmitting a data bit 1: [-1, 1, 1, -1, -1, 1, 1, -1]
+   User Z transmitting a data bit 0: [1, 1, -1, -1, 1, 1, -1, -1]
+
+b. NOTE: I assume we are talking about the composite signal of question a. Not
+   the values in the chipping sequence, but the values of 1, 1 and 0. 
+   Answer [-1, 3, -1, -1, -1, 3, -1, -1] 
+
+c. NOTE: This was attached to the assignment as a separate file since I drew it
+   by hand. 
+
+
