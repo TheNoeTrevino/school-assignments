@@ -38,6 +38,15 @@ criteria Ericsson has set out for us.
 
 TODO: expand on this
 
+### Discuss how we will draw network models
+
+Using a techniques similar to Abdelaal and Ali's paper on graph theoretic
+approach for analysis and design of community wireless networks, we will be
+depicting the data flow of the network. This technique is similar to graph
+theory and help us better understand the use of these mechanisms. 
+
+source: https://aisel.aisnet.org/amcis2008/310/
+
 ### Discuss Spectrum Allocation 
 
 Corporations can lease out spectrum from the mobile network or the government,
@@ -97,8 +106,25 @@ We can see 10 strong use case clusters for private 5G networks here.
 
 ## Results and Discussion
 
+Talk about the most safe way to deploy your own network with all the principles
+we have discusses thus far.
+
 ## Conclusion 
 
 ## Acknowledgements 
 
 ## References 
+
+https://link.springer.com/chapter/10.1007/978-3-642-40041-4_24
+https://ieeexplore.ieee.org/abstract/document/9775989
+https://ieeexplore.ieee.org/abstract/document/5751298
+https://nvlpubs.nist.gov/nistpubs/specialpublications/NIST.SP.800-207.pdf
+https://www.ericsson.com/assets/local/5g/the-5g-for-business-a-2030-compass-report-2019.pdf
+
+Some AI stuff:
+
+https://ieeexplore.ieee.org/abstract/document/9944643
+
+https://ieeexplore.ieee.org/abstract/document/5288943
+
+https://aisel.aisnet.org/amcis2008/310/
