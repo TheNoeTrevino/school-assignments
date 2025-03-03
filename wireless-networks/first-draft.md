@@ -104,6 +104,12 @@ types.
 
 We can see 10 strong use case clusters for private 5G networks here.
 
+### Cost Considerations
+
+### Regulatory/Compliance/Legal Considerations
+
+## The Future of 5G networks
+
 ## Results and Discussion
 
 Talk about the most safe way to deploy your own network with all the principles
