@@ -32,6 +32,60 @@ Telecommunication expert Ericsson (insert source here) defined 5 key
 requirements for private 5G networks: availability, reliability, security,
 inter-networking, and quality of service. 
 
+Using techniques like spectrum allocation, or the deployment of our own network
+with modern security mechanisms, we can ensure that our network will meet the
+criteria Ericsson has set out for us.
+
+TODO: expand on this
+
+### Discuss Spectrum Allocation 
+
+Corporations can lease out spectrum from the mobile network or the government,
+depending on the situation.
+
+### Discuss Network Deployment
+
+Deploying you own 5G network can be a daunting task, but this option allows for
+the most control over the policies and security of your data. 
+
+## Security Mechanisms 
+
+### End to end encryption
+
+We use AES to encrypt our data, and the TLS protocol to ensure the safety of our
+data.
+
+source: https://link.springer.com/chapter/10.1007/978-3-642-40041-4_24
+
+
+### Zero Trust Architecture
+
+ZTA is the concept of not inherently trusting any device This is using micro
+segmentation, the principle of least privilege and continuous verification.
+
+https://nvlpubs.nist.gov/nistpubs/specialpublications/NIST.SP.800-207.pdf
+
+### AI powered Threat Detection
+
+With the continuing rise of devices connecting to the internet, some might
+consider an automated option to cover the large amount of devices that the
+company is overseeing. Having one person look through for anomalies in each user
+can be a large task....
+
+TODO: talk about this article below
+
+source: https://ieeexplore.ieee.org/abstract/document/9775989
+
+### Physical Layer Security
+
+Talk about techniques that we learned about in class that prevent eavesdropping
+and jamming. These two attacks are the most common...
+
+TODO: talk about this article below
+
+source: https://ieeexplore.ieee.org/abstract/document/5751298
+
+
 ## Use Cases
 
 A study by Ericsson showed that 5G networks can be used in a variety of market
